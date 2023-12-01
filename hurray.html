@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hurray!!</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <style>
+        @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Dangrek&family=Delius+Unicase&family=Lato:wght@400;700&family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: #89C15E;
+        }
+
+        /*RULES-PART-START*/
+        .rules {
+            border-radius: 10px;
+            border: 2px solid #FFF;
+            height: 5vh;
+            width: 7vw;
+            color: #FFF;
+            text-align: center;
+            padding: 4px;
+            position: absolute;
+            top: 650px;
+            right: 15px;
+            cursor: pointer;
+        }
+
+        .rules-btn {
+            border-radius: 10px;
+            border: none;
+            background: none;
+            color: #FFF;
+            font-family: 'Roboto', sans-serif;
+            font-size: 21px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            letter-spacing: 2.1px;
+            text-align: center;
+            cursor: pointer;
+        }
+
+        /*GAME-RULES*/
+        .game-rules {
+            border-radius: 13px;
+            border: 7px solid #FFF;
+            background: #004429;
+            height: 45vh;
+            width: 18vw;
+            position: absolute;
+            top: 320px;
+            right: 25px;
+            pointer-events: none;
+            opacity: 0;
+            transition: opacity 0.3s ease-in-out;
+
+        }
+
+        .display-rules {
+            opacity: 1;
+            pointer-events: initial;
+        }
+
+        .rules-div h2 {
+            padding-bottom: 6px;
+            text-align: center;
+            color: #FFF;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 500;
+        }
+
+        .rules-div {
+            margin: 3px 10px;
+            padding: 10px;
+        }
+
+        .rules-div ul li {
+            padding: 5px;
+            margin-left: 8px;
+            list-style-type: square;
+            color: #FFD600;
+            font-family: 'Roboto', sans-serif;
+            font-size: 15px;
+        }
+
+        .rules-div ul li span {
+            color: #fff;
+            font-size: 12px;
+            text-align: start;
+        }
+
+        /*close-btn*/
+        .close-div {
+            border: none;
+            height: 8.9vh;
+            width: 4.1vw;
+            border-radius: 50%;
+            align-items: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: url(Ellipse-6.svg) no-repeat;
+            position: absolute;
+            top: -40px;
+            right: -22px;
+            padding-bottom: 35px;
+            padding-right: 2px;
+
+        }
+
+        .close-btn {
+            height: 6.9vh;
+            width: 3.1vw;
+            border-radius: 50%;
+            background: none;
+            cursor: pointer;
+            border: none;
+            font-family: 'Dangrek', sans-serif;
+            font-weight: 400;
+            color: #fff;
+            font-size: 40px;
+            margin-top: 15px;
+        }
+
+        /*RULES-PART-END*/
+    </style> -->
+</head>
+
+<body>
+    <main>
+        <div class="hurray">
+            <div class="stars">
+                <img src="star.svg" alt="" class="star-1" />
+                <img src="star.svg" alt="" class="star-2" />
+                <img src="star.svg" alt="" class="star-3" />
+                <img src="star.svg" alt="" class="star-4" />
+                <img src="star.svg" alt="" class="star-5" />
+                <img src="star.svg" alt="" class="star-6" />
+                <img src="star.svg" alt="" class="star-7" />
+                <img src="star.svg" alt="" class="star-8" />
+            </div>
+            <img src="Vector.png" alt="" class="trophy" />
+
+            <div class="hurray-text ">
+                <h1>HURRAY!!</h1>
+                <p>YOU WON THE GAME</p>
+            </div>
+            <div class="play-div"><a class="play-btn" href="index.html">PLAY AGAIN</a></div>
+
+    </main>
+
+    <section class="rules-part">
+        <div class="rules"><button class="rules-btn">RULES</button></div>
+
+        <div class="game-rules">
+            <div class="close-div">
+                <button class="close-btn">
+                    X
+                </button>
+            </div>
+            <div class="rules-div">
+                <h2>GAME RULES</h2>
+                <ul>
+                    <li class="text"><span>Rock beats scissors, scissors beat paper, and paper beats rock.</span>
+                    </li>
+                    <li class="text"><span>Agree ahead of time whether you'll count off “rock, paper, scissors,
+                            shoot” or just “rock, paper, scissors.”</span></li>
+                    <li class="text"><span>Use rock, paper, scissors to settle minor decisions or simply play to
+                            pass the time.</span></li>
+                    <li class="text"><span>If both players lay down the same hand, each player lays down another
+                            hand</span></li>
+                </ul>
+            </div>
+        </div>
+
+    </section>
+    <!-- <script>
+        //Displaying rules whenever close/rules buttons are toggled
+        const rulesBtn = document.querySelector('.rules-btn');
+        const closeBtn = document.querySelector('.close-btn');
+        const gameRules = document.querySelector('.game-rules');
+
+        rulesBtn.addEventListener('click', () => {
+            gameRules.classList.toggle('display-rules');
+        });
+        closeBtn.addEventListener('click', () => {
+            gameRules.classList.toggle('display-rules');
+        });
+
+    </script> -->
+    <script src="script.js"></script>
+</body>
+
+</html>
