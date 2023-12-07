@@ -8,9 +8,9 @@
 </hr>
 
 
-# Welcome!👋:
+# Welcome!👋:Thanks for checking out this Rock-Paper-Scissors-Game.
 
-Thanks for checking out this Rock-Paper-Scissors-Game.
+
 # Problem Statement:
 
 The challenge is to build out this Rock, Paper, Scissors game and get it to look as close to the design as possible.
